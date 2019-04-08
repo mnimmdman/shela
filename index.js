@@ -71,7 +71,7 @@ async function registerBigToken(email, referral) {
             }
         }
         console.log(`[!] Email : ${doGetData.email}@${emailVerified}`);
-        const doRegister = await registerBigToken(doGetData.email+`@${emailVerified}`, `RMAL4SE4L`);
+        const doRegister = await registerBigToken(doGetData.email+`@${emailVerified}`, `oiagsam0l`);
         if(doRegister.indexOf('user_id') > -1) {
             console.log(`[!] Register success, sleep 20sec.`);
             await delay(20000);
